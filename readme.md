@@ -1,3 +1,2 @@
 # python-learning
-## goal
-learning python
+Practical use cases in Python  

@@ -3,7 +3,8 @@ import sys
 import logging
 
 FORMAT = '[%(levelname)s][%(asctime)s] %(message)s'
-logging.basicConfig(format=FORMAT, filename='log.logging', level=logging.WARNING)
+logging.basicConfig(handlers=[logging.FileHandler(filename='log.comic-downloader', encoding='utf-8')], format=FORMAT, level=logging.WARNING)
+
 
 count = 0
 while(count < 10):

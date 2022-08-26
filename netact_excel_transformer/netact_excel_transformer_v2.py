@@ -5,7 +5,6 @@ from easygui import fileopenbox
 import pandas as pd
 from datetime import date
 import os
-from plyer import notification
 
 # Matching file names and categorize them with a proper function name
 def match_stirng(csv_file):
@@ -148,6 +147,8 @@ print(path_temp)
 # root = Tk()
 # root.filename =  filedialog.askopenfilenames(initialdir = "/",title = "Select file",filetypes = (("all files","*.*"), ("csv files","*.csv"),("excel files","*.xlsx")))
 # print (root.filename)
+
+# from plyer import notification
 
 # notification.notify(
 #     title='Task has done.',

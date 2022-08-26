@@ -23,6 +23,7 @@
 
 from asyncio.windows_events import NULL
 from contextlib import nullcontext
+from importlib.resources import path
 from easygui import fileopenbox
 import pandas as pd
 from datetime import date
@@ -33,7 +34,7 @@ from plyer import notification
 # import csv
 
 path_files = fileopenbox("Welcome", "COPR", filetypes= "*.txt", multiple=True)
-
+path_files.sort()
 print(path_files)
 
 
@@ -62,13 +63,9 @@ df_result = pd.DataFrame(columns=['TYPE', 'NE', 'Severity', 'ALARM NUMBER', 'Ala
 for csv_file in path_files:
     df = pd.read_csv(csv_file)
 
-    # duplicated_index = df_result[df_result.TYPE == match_stirng(csv_file)]
     duplicated_index = df_result[df_result['TYPE'] == match_stirng(csv_file)].index.values
-
-    print(duplicated_index)
-    input()
     
-    if(duplicated_index is None):
+    if(duplicated_index.size == 0):
         df_temp  = pd.DataFrame({
             'TYPE': [match_stirng(csv_file)],
             'NE': [''],
@@ -129,8 +126,11 @@ for csv_file in path_files:
                 'NOTE': ['']
                 })
             df_temp = pd.concat([df_temp, df_temp2], ignore_index = True, axis = 0)
-        insertion_point = duplicated_index
-        pd.concat([df_result.iloc[:insertion_point], df_temp, df_result.iloc[insertion_point:]]).reset_index(drop=True)
+        
+        insertion_point = duplicated_index[0]+1
+        # print(df_result.iloc[:insertion_point])
+        # input()
+        df_result = pd.concat([df_result.iloc[:insertion_point], df_temp, df_result.iloc[insertion_point:]]).reset_index(drop=True)
 
 # print(df_result)
 
@@ -147,7 +147,7 @@ while os.path.exists(path_temp):
     i = i + 1
     print("revised path: ", path_temp)
 
-df_result.to_excel(path_temp)
+df_result.to_excel(path_temp, index=False)
 print(path_temp)
 
 # notification.notify(

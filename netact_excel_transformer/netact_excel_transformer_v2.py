@@ -27,7 +27,7 @@ def match_stirng(csv_file):
     return ""
 
 # Get files path into list
-path_files = fileopenbox("Welcome", "COPR", filetypes= "*.txt", multiple=True)
+path_files = fileopenbox("Select Files", "Netact Alarm List To Excel", filetypes= "*.txt", multiple=True)
 path_files.sort()
 print(path_files)
     

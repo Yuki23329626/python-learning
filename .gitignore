@@ -74,9 +74,7 @@ string_compare/configuration_current.txt
 string_compare/N3CFX01_config_20220822-1122- after.txt
 string_compare/N3CFX01_config_20220822-1122.txt
 config_compare/configuration_current_202208301219- after.txt
-config_compare/configuration_current_202208301219.txt
 config_compare/configuration_current.txt
 config_compare/N3CFX01_config_20220822-1122- after.txt
-config_compare/N3CFX01_config_20220822-1122.txt
 string_compare/config_compare_all_table.py
 string_compare/config_compare_single_table.py

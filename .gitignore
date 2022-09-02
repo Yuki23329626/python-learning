@@ -1,21 +1,3 @@
-s3tas01(0815-0821).csv
-netact_excel_transformer/CIMS_NE_alarm_20220825.xlsx
-netact_excel_transformer/CIMS_NE_alarm_during_non_working_day_20220815_20220821_v2.xlsx
-netact_excel_transformer/n3asbc01(0815-0821) - Copy (5) - Copy.csv
-netact_excel_transformer/n3asbc01(0815-0821) - Copy (5).csv
-netact_excel_transformer/n3cscf01(0815-0821) - Copy (4) - Copy.csv
-netact_excel_transformer/n3mgcf01(0815-0821) - Copy (3) - Copy.csv
-netact_excel_transformer/n3mrf01(0815-0821) - Copy (7) - Copy.csv
-netact_excel_transformer/n3mw01(0815-0821) - Copy (2) - Copy.csv
-netact_excel_transformer/n3sub01(0815-0821) - Copy (6) - Copy.csv
-netact_excel_transformer/n3titan01(0815-0821) - Copy - Copy.csv
-netact_excel_transformer/s3cscf01(0815-0821) - Copy (4).csv
-netact_excel_transformer/s3mgcf01(0815-0821) - Copy (3).csv
-netact_excel_transformer/s3mrf01(0815-0821) - Copy (7).csv
-netact_excel_transformer/s3mw01(0815-0821) - Copy (2).csv
-netact_excel_transformer/s3sub01(0815-0821) - Copy (6).csv
-netact_excel_transformer/s3tas01(0815-0821) - Copy.csv
-netact_excel_transformer/s3titan01(0815-0821) - Copy.csv
 netact_excel_transformer/netact_excel_transformer.spec
 netact_excel_transformer/build/netact_excel_transformer/Analysis-00.toc
 netact_excel_transformer/build/netact_excel_transformer/base_library.zip
@@ -39,11 +21,6 @@ CIMS_NE_alarm_during_non_working_day_20220815_20220821_v2.xlsx
 netact_excel_transformer.7z
 netact_excel_transformer.py
 s3tas01(0815-0821).csv
-netact_excel_transformer/netact_excel_transformer.exe
-netact_excel_transformer/CIMS_NE_alarm_20220825 - (1).xlsx
-netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx
-netact_excel_transformer/n3tas01(0815-0821) - Copy.csv
-netact_excel_transformer/s3asbc01(0815-0821) - Copy (5).csv
 netact_excel_transformer/netact_excel_transformer_v2.spec
 .gitignore
 netact_excel_transformer/build/netact_excel_transformer_v2/Analysis-00.toc

@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import date
 import os
 
-# Matching file names and categorize them with a proper function name
+# Matching file names and categorize them with a proper function name 
 def match_stirng(csv_file):
     if("titan" in csv_file):
         return "NETNUMBER(ENUM)"

@@ -59,7 +59,7 @@ for path_file in path_files:
     # file1.writelines(res)
     # file1.close()
 
-    with open(path_file.split('.')[-2] + '- after.txt', 'w') as output_file:
+    with open(path_file.split('.')[-2] + ' - after.txt', 'w') as output_file:
         for table_name in table_dict:
             res = {}
             for i in range(table_dict[table_name]['start'], table_dict[table_name]['end']):
@@ -107,4 +107,4 @@ for path_file in path_files:
                 output_file.write(element)
             output_file.write("\n")
     
-    print('finished')
+    print(path_file.split('\\')[-1] + ' finished')

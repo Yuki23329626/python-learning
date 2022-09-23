@@ -32,7 +32,7 @@ path_files.sort()
 print(path_files)
     
 
-df_result = pd.DataFrame(columns=['TYPE', 'NE', 'Severity', 'ALARM NUMBER', 'Alarm History', 'Alarm List', 'abormal alarm in weekend', 'NOTE'])
+df_result = pd.DataFrame(columns=['TYPE', 'NE', 'Severity', 'ALARM NUMBER', 'Alarm Time' ,'Alarm History', 'Alarm List', 'abormal alarm in weekend', 'NOTE'])
 
 
 for csv_file in path_files:
@@ -42,22 +42,26 @@ for csv_file in path_files:
     duplicated_index = df_result[df_result['TYPE'] == match_stirng(csv_file)].index.values
     
     if(duplicated_index.size == 0):
+        # fill in the NE Type in the output excel
         df_temp  = pd.DataFrame({
             'TYPE': [match_stirng(csv_file)],
             'NE': [''],
             'Severity': [''],
             'ALARM NUMBER': [''],
+            'Alarm Time': [''],
             'Alarm History': [''],
             'Alarm List': [''],
             'abormal alarm in weekend': [''],
             'NOTE': ['']
             })
         
+        # fill in the NE name in the output excel
         df_temp2  = pd.DataFrame({
                 'TYPE': [''],
                 'NE': [csv_file.split(".")[-2].split("\\")[-1]],
                 'Severity': [''],
                 'ALARM NUMBER': [''],
+                'Alarm Time': [''],
                 'Alarm History': [''],
                 'Alarm List': [''],
                 'abormal alarm in weekend': [''],
@@ -71,6 +75,7 @@ for csv_file in path_files:
                 'NE': [''],
                 'Severity': [df.iloc[index]['Severity']],
                 'ALARM NUMBER': [df.iloc[index]['Alarm Number']],
+                'Alarm Time': [df.iloc[index]['Alarm Time']],
                 'Alarm History': ['v'],
                 'Alarm List': [''],
                 'abormal alarm in weekend': [df.iloc[index]['Alarm Text']],
@@ -84,6 +89,7 @@ for csv_file in path_files:
                 'NE': [csv_file.split(".")[-2].split("\\")[-1]],
                 'Severity': [''],
                 'ALARM NUMBER': [''],
+                'Alarm Time': [''],
                 'Alarm History': [''],
                 'Alarm List': [''],
                 'abormal alarm in weekend': [''],
@@ -96,6 +102,7 @@ for csv_file in path_files:
                 'NE': [''],
                 'Severity': [df.iloc[index]['Severity']],
                 'ALARM NUMBER': [df.iloc[index]['Alarm Number']],
+                'Alarm Time': [df.iloc[index]['Alarm Time']],
                 'Alarm History': ['v'],
                 'Alarm List': [''],
                 'abormal alarm in weekend': [df.iloc[index]['Alarm Text']],

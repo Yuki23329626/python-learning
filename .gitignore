@@ -58,3 +58,7 @@ config_compare/build
 config_compare/config_compare_all_table.spec
 config_compare/configuration_current_202208301219 - after.txt
 config_compare/N3CFX01_config_20220822-1122 - after.txt
+netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx
+netact_excel_transformer/CIMS_NE_alarm_20220905.xlsx
+netact_excel_transformer/CIMS_NE_alarm_20220923 - (1).xlsx
+netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx

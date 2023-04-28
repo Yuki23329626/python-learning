@@ -7,3 +7,6 @@ in order to compile your own project.
 
 See [description_about_yt-dlp](https://github.com/yt-dlp/yt-dlp#compile)  
 
+```bash
+pyinstaller.exe -F youtube-downloader-v2.py
+```

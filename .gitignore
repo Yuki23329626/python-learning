@@ -62,3 +62,6 @@ netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx
 netact_excel_transformer/CIMS_NE_alarm_20220905.xlsx
 netact_excel_transformer/CIMS_NE_alarm_20220923 - (1).xlsx
 netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx
+/youtube-download/dist
+/youtube-download/build
+/youtube-download/*.spec

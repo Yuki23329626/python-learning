@@ -1,3 +1,25 @@
-[ERROR][2020-12-21 01:27:50,984] name 'error' is not defined
-[ERROR][2020-12-21 01:27:50,985] name 'error' is not defined
-[ERROR][2020-12-21 01:27:50,985] name 'error' is not defined
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][ERROR] name 'error' is not defined
+Traceback (most recent call last):
+  File "d:\git\python-learning\logging_example\logging1.py", line 20, in <module>
+    error
+NameError: name 'error' is not defined
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][ERROR] name 'error' is not defined
+Traceback (most recent call last):
+  File "d:\git\python-learning\logging_example\logging1.py", line 20, in <module>
+    error
+NameError: name 'error' is not defined
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][INFO] this is an info
+[2023-09-05 21:16:58][ERROR] name 'error' is not defined
+Traceback (most recent call last):
+  File "d:\git\python-learning\logging_example\logging1.py", line 20, in <module>
+    error
+NameError: name 'error' is not defined
+[2023-09-05 21:16:58][INFO] this is an info

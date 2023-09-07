@@ -65,3 +65,6 @@ netact_excel_transformer/CIMS_NE_alarm_20220826.xlsx
 /youtube-download/dist
 /youtube-download/build
 /youtube-download/*.spec
+log.d
+log.subprocess_main
+log.subprocess_sub

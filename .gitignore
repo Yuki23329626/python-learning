@@ -71,3 +71,5 @@ log.subprocess_sub
 /dist
 /build
 *.spec
+logging_example/log_logging.log
+.gitignore

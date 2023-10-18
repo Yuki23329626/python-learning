@@ -1,0 +1,29 @@
+[ERROR][2023-10-16 14:29:56] [WinError 5] Access is denied
+[INFO ][2023-10-16 14:31:47] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' has been removed.
+[INFO ][2023-10-16 14:31:47] Value 'ffmpeg' removed from Path.
+[INFO ][2023-10-16 14:31:47] new_path: 'C:\Users\mishen\Desktop\IMT Documents\NokiaInformationBrowser\jdk1.7.0_40\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\CCM\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Common Files\PCXTools;C:\Program Files\Git\cmd;C:\Users\mishen\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mishen\AppData\Local\Programs\Python\Python310\;C:\Users\mishen\AppData\Local\Microsoft\WindowsApps;C:\Users\mishen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mishen\AppData\Roaming\npm'
+[INFO ][2023-10-16 14:36:53] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' has been removed.
+[INFO ][2023-10-16 14:36:53] Value 'ffmpeg' removed from Path.
+[INFO ][2023-10-16 14:36:53] new_path: 'C:\Users\mishen\Desktop\IMT Documents\NokiaInformationBrowser\jdk1.7.0_40\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\CCM\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Common Files\PCXTools;C:\Program Files\Git\cmd;C:\Users\mishen\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mishen\AppData\Local\Programs\Python\Python310\;C:\Users\mishen\AppData\Local\Microsoft\WindowsApps;C:\Users\mishen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mishen\AppData\Roaming\npm'
+[ERROR][2023-10-16 14:37:51] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' not found.
+[INFO ][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[ERROR][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[ERROR][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[INFO ][2023-10-16 14:44:13] 1
+[ERROR][2023-10-16 15:13:55] [WinError 5] Access is denied
+[ERROR][2023-10-16 15:14:12] [WinError 5] Access is denied
+[INFO ][2023-10-16 15:16:22] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' has been removed.
+[INFO ][2023-10-16 15:16:23] Value 'ffmpeg' removed from Path.
+[INFO ][2023-10-16 15:16:23] new_path: 'C:\Users\mishen\Desktop\IMT Documents\NokiaInformationBrowser\jdk1.7.0_40\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\CCM\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Common Files\PCXTools;C:\Program Files\Git\cmd;C:\Users\mishen\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mishen\AppData\Local\Programs\Python\Python310\;C:\Users\mishen\AppData\Local\Microsoft\WindowsApps;C:\Users\mishen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mishen\AppData\Roaming\npm'
+[ERROR][2023-10-16 15:16:39] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' not found.
+[ERROR][2023-10-16 15:17:21] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' not found.
+[INFO ][2023-10-16 15:59:04] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' has been removed.
+[INFO ][2023-10-16 15:59:05] Value 'ffmpeg' removed from Path.
+[INFO ][2023-10-16 15:59:05] new_path: 'C:\Users\mishen\Desktop\IMT Documents\NokiaInformationBrowser\jdk1.7.0_40\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\CCM\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Common Files\PCXTools;C:\Program Files\Git\cmd;C:\Users\mishen\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\mishen\AppData\Local\Programs\Python\Python310\;C:\Users\mishen\AppData\Local\Microsoft\WindowsApps;C:\Users\mishen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mishen\AppData\Roaming\npm'
+[ERROR][2023-10-16 15:59:07] Registry key 'SOFTWARE\Google\Chrome\NativeMessagingHosts\com.example.nativeapp' not found.

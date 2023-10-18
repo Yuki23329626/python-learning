@@ -4,12 +4,14 @@ import logging
 import os
 
 # Get the path of the current Python script
-script_path = os.path.dirname(os.path.abspath(__file__))
-os.chdir(script_path)
+script_path = os.path.abspath(sys.argv[0])
+script_dir = os.path.dirname(script_path)
 
-FORMAT = '[%(levelname)s][%(asctime)s] %(message)s'
-logging.basicConfig(handlers=[logging.FileHandler(filename='log.logging', encoding='utf-8')], format=FORMAT, level=logging.INFO, datefmt = '%Y-%m-%d %H:%M:%S')
-
+FORMAT = '%(levelname)-5s %(asctime)s %(message)s'
+logging.basicConfig(
+    handlers=[logging.FileHandler(filename=os.path.join(
+        script_dir, 'log_logging.log'), encoding='utf-8')],
+    format=FORMAT, level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
 count = 0
 while(count < 10):
